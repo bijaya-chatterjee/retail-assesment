@@ -18,8 +18,8 @@ public class App
         bill.addLineItem(new LineItem("Bread", 150,"bakery"));
         bill.addLineItem(new LineItem("potato", 150,"vegetable"));
         bill.addLineItem(new LineItem("potato", 150,"grocery"));
-       // bill.calcNetAmt(UserTypeFactory.getUserType("employee"));
-        bill.calcNetAmt(UserTypeFactory.getUserType("affiliate"));
+        bill.calcNetAmt(UserTypeFactory.getUserType("employee"));
+       // bill.calcNetAmt(UserTypeFactory.getUserType("affiliate"));
        // bill.calcNetAmt(UserTypeFactory.getUserType("custGtTwoYrs"));
        // bill.calcNetAmt(UserTypeFactory.getUserType("custNoDisc"));
     }
